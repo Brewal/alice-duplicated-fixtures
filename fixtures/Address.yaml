@@ -1,0 +1,12 @@
+App\Entity\Address:
+    address_{1..150}:
+        address1: <streetAddress()>
+        address2: '50%? <streetAddress()>'
+        postalCode: <postcode()>
+        city: <city()>
+        latitude: <latitude()>
+        longitude: <longitude()>
+        state: <state()>
+        department: <state()>
+        timezone: <timezone()>
+        country: '@country_*'

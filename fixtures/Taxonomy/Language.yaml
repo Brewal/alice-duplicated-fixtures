@@ -1,0 +1,11 @@
+App\Entity\Taxonomy\Language:
+    language_fr:
+        name: 'Français'
+        active: true
+        code (unique): 'fr'
+        default: true
+    language_en:
+        name: 'English'
+        active: true
+        code (unique): 'en'
+        default: false

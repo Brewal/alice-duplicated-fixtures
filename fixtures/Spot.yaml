@@ -1,0 +1,7 @@
+App\Entity\Spot:
+    spot_{1..40}:
+        name: '<word()>'
+        defaultLanguage: '@language_*'
+        address (unique): '@address_*'
+        description: <text()>
+        magicSeaweedId: <word()>

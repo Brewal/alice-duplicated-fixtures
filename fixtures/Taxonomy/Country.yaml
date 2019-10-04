@@ -1,0 +1,8 @@
+App\Entity\Taxonomy\Country:
+    country_{1..20}:
+        name (unique): '<country()>'
+        defaultLanguage: '@language_*'
+        active: '<boolean()>'
+        hasStates: '<boolean()>'
+        isoCode: '<word()>'
+        phoneCode: '<word()>'
